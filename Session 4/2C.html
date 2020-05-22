@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>CSS Selectors Priority</title>
+        <style>
+            .red {
+                color: red;
+            }
+
+            #blue {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="red">Paragraph 1 has class "red".</p>
+    
+        <p id="blue">Paragraph 2 has ID "blue".</p>
+
+        <p class="red" id="blue">Paragraph 3 has both class "red" and ID "blue". As you can see, ID has more preference over class.</p>
+    </body>
+</html>

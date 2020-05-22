@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Priority between internal, external and inline CSS.</title>
+        <link rel="stylesheet" href="2D-style.css" />
+        <style>
+            .blue {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <p style="color: red">This paragraph is styled inline.</p>
+        <p class="blue">This paragraph is styled using internal CSS in the head.</p>
+        <p class="green">This paragraph is styled using extenal CSS file.</p>
+        <p class="green blue">This paragraph has both internal and external styles attached to it. But, it gives more priority to the internal CSS.</p>
+        <p class="green blue" style="color: red">This paragraph has all the three styles - inline, internal and external styles attached to it. But, it gives more priority to the inline CSS.</p>
+        <p>Therefore, inline > internal > external (in priority).</p>
+    </body>
+</html>
