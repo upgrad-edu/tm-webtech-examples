@@ -1,0 +1,46 @@
+p {
+    border: 1px solid #ccc;
+}
+
+.margin-one {
+    margin: 50px;
+}
+
+.margin-two {
+    margin-right: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.margin-four-values {margin: 30px 10px 15px 40px;}
+.margin-three-values {margin: 30px 10px 15px;}
+.margin-two-values {margin: 30px 10px;}
+.margin-one-value {margin: 30px;}
+
+.margin-auto {
+    margin: auto;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+.margin-inherit {
+    margin: inherit;
+}
+
+.parent-div {
+    margin: 20px;
+    border: 1px solid red;
+}
+
+.child-div {
+    margin: inherit;    
+}
+
+.header-1 {
+    margin-bottom: 50px;
+}
+
+.header-2 {
+    margin-top: 20px;
+}

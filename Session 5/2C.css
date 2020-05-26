@@ -1,0 +1,21 @@
+div {
+    border: 1px solid black;
+}
+
+.container {padding: 50px;}
+.container-padding-four-values {padding: 10px 20px 40px 30px;}
+.container-padding-three-values {padding: 10px 20px 40px;}
+.container-padding-two-values {padding: 10px 20px;}
+.container-padding-one-value {padding: 10px;}
+
+.content-box {
+    width: 200px;
+    box-sizing: content-box;
+    padding: 50px;
+}
+
+.border-box {
+    width: 200px;
+    box-sizing: border-box;
+    padding: 50px;
+}
