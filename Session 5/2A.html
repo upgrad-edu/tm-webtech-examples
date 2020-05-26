@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>CSS Borders</title>
+        <link href="2A.css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="solid">I have a border.</p>
+
+        <hr />
+
+        <h4 class="title">Border-style (Different styles of borders)</h4>
+        <p class="dotted">A dotted border.</p>
+        <p class="dashed">A dashed border.</p>
+        <p class="solid">A solid border.</p>
+        <p class="double">A double border.</p>
+        <p class="groove">A groove border.</p>
+        <p class="ridge">A ridge border.</p>
+        <p class="inset">An inset border.</p>
+        <p class="outset">An outset border.</p>
+        <p class="mix">A mixed border.</p>
+        <p class="none">No border.</p>
+        <p class="hidden">A hidden border.</p>
+
+        <hr />
+
+        <h4 class="title">Border-width (Border-width can be defined as units (px, pt, em, etc) or by values like thick, thin, medium.)</h4>
+        <p class="border-1">Border solid with width 5 px</p>
+        <p class="border-2">Border double with width "thin"</p>
+        <p class="border-3">Border with different widths for each side.</p>
+
+        <hr />
+
+        <h4 class="title">Border-colors</h4>
+        <p class="border-red">Border red</p>
+        
+        <hr />
+
+        <h4 class="title">Border Individual Side Styles</h4>
+        <p class="border-mixed">A border with different style for each side.</p>
+        <p class="border-four-values">This border's value is "border-color: red blue green yellow". Therefore, it gives top as red, right as blue, bottom as green and left as yellow in a clockwise direction.</p>
+        <p class="border-three-values">This border's value is "border-color: red blue green". Therefore, it gives top as red, right and left as blue, and bottom as green in a clockwise direction.</p>
+        <p class="border-two-values">This border's value is "border: red blue". Therefore, it gives top and bottom as red, and right and left as blue, in a clockwise direction.</p>
+        <p class="border-one-value">This border's value is "border: red". Therefore, it gives all sides as red.</p>
+
+        <hr />
+
+        <h4 class="title">Border shorthand.</h4>
+        <p class="all-borders-shorthand">This paragraph has the property "border: 1px solid black" where "1px" stands for width, "solid" stands for style and "black" stands for color. It's applied to all the sides.</p>
+        <p class="bottom-border-shorthand">This paragraph has the property "border-bottom: 1px solid black" where "1px" stands for width, "solid" stands for style and "black" stands for color. It's applied only to the bottom border.</p>
+
+        <hr />
+
+        <h4 class="title">Border radius</h4>
+        <div class="border-radius-div border-radius-four-values"></div>
+        <span>The above div has the property "border-radius: 25px 45px 10px 1px". In clockwise fashion, 25px is given to <strong>top-left</strong>, 45px is given to <strong>top-right</strong>, 10px is given to <strong>bottom-right</strong> and finally, 1px is given to <strong>bottom-left</strong>.</span>
+        <div class="border-radius-div border-radius-three-values"></div>
+        <span>The above div has the property "border-radius: 25px 45px 10px". 25px is given to <strong>top-left</strong>, 45px is given to <strong>top-right and bottom-left</strong> diagonally, and 10px is given to <strong>bottom-right</strong>.</span>
+        <div class="border-radius-div border-radius-two-values"></div>
+        <span>The above div has the property "border-radius: 25px 45px". 25px is given to <strong>top-left and bottom-left</strong>, and 45px is given to <strong>top-right and bottom-right</strong> diagonally.</span>
+        <div class="border-radius-div border-radius-one-value"></div>
+        <span>The above div has the property "border-radius: 25px". It applies to all borders.</span>
+    </body>
+</html>
