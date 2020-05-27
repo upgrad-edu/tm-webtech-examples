@@ -1,0 +1,43 @@
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.impact {
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.font-weight-normal {
+    font-weight: normal;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.font-weight-900 {
+    font-weight: 900;
+}
+
+.responsive-font-size {
+    font-size: 5vw;
+}
+
+.font-shorthand {
+    font: bold italic 12px/30px "Times New Roman", serif
+}

@@ -1,0 +1,17 @@
+a:link { color: white; }
+a:visited { color: green; }
+a:hover { color: orange; }
+a:active { color: blue; }
+
+.button-link:link, .button-link:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+.button-link:hover, .button-link:active {
+    background-color: red;
+}

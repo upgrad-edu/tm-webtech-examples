@@ -1,0 +1,63 @@
+.blue-font {
+    color: blue;
+}
+
+.dark-bg {
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.left-align { text-align: left; }
+.center-align { text-align: center; }
+.right-align { text-align: right; }
+
+.small-box {
+    height: 50px;
+}
+
+.vertical-top-align {vertical-align: top;}
+.vertical-middle-align {vertical-align: middle;}
+.vertical-bottom-align {vertical-align: bottom;}
+
+.justify-container {
+    padding-bottom: 10px;
+    margin-left: auto;
+}
+
+.text-justify-container {
+    width: 400px;
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-block;
+}
+
+.justified-text {
+    text-align: justify;
+    display: inline-block;
+}
+
+.underline { text-decoration: underline; }
+.overline { text-decoration: overline; }
+.line-through { text-decoration: line-through; }
+#hyperlink { text-decoration: none; }
+
+.lowercase { text-transform: lowercase; }
+.uppercase { text-transform: uppercase; }
+.capitalize { text-transform: capitalize; }
+
+.text-indent { text-indent: 50px; }
+
+.high-letter-spacing { letter-spacing: 3px; }
+.low-letter-spacing { letter-spacing: -3px; }
+
+.small-line-height { line-height: 0.5; }
+.large-line-height { line-height: 1.5; }
+
+.large-word-spacing { word-spacing: 10px; }
+
+.no-white-space { white-space: nowrap; }
+
+.normal-text-shadow { text-shadow: 1px 1px; }
+.red-text-shadow { text-shadow: 1px 1px red; }
+.red-blur-text-shadow { text-shadow: 1px 1px 10px red; }
