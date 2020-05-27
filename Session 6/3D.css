@@ -1,0 +1,17 @@
+.container {
+    border: 1px solid black;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.image-left-float {
+    float: left;
+}
+
+.image-right-float {
+    float: right;
+}
+
+.image-no-float {
+    float: none;
+}
