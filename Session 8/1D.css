@@ -1,0 +1,71 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 1px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.box-1 {
+    animation-name: one-color-change;
+    animation-duration: 5s; 
+}
+
+.box-2, .box-3, .box-4, .box-5 {
+    animation-name: four-colors-change;
+    animation-duration: 5s; 
+}
+
+.box-3 {
+    animation-delay: 2s;
+    /* animation-delay: -2s; */
+}
+
+.box-4 {
+    animation-iteration-count: 3;
+}
+
+.box-5 {
+    animation-name: color-and-move;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+    position: relative;
+    animation-timing-function: linear;
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+    /* animation-timing-function: ease-in-out; */
+    animation-fill-mode: none;
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: backwards; */
+    /* animation-fill-mode: both; */
+}
+
+.box-6 {
+    animation: four-colors-change 5s linear 2s 2 normal;
+}
+
+@keyframes one-color-change {
+    from { background-color: red; }
+    to { background-color: yellow; }
+}
+
+@keyframes four-colors-change {
+    0% { background-color: red; }
+    25% { background-color: yellow; }
+    50% { background-color: green; }
+    100% { background-color: pink; }
+}
+
+@keyframes color-and-move {
+    0% { background-color: red; left:0px; top:0px; }
+    25% { background-color: yellow; left:200px; top: 0px; }
+    50% { background-color: green; left:200px; top:200px; }
+    75% { background-color: pink; left:0px; top:200px; }
+    100% { background-color: brown; left:0px; top:0px; }
+}
