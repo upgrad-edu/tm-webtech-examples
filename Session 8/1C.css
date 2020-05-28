@@ -1,0 +1,78 @@
+.div-1, .div-2, .div-4, .div-5, .div-6 {
+    height: 100px;
+    width: 100px;
+    background: black;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: width 2s;
+}
+
+.div-1:hover {
+    width: 300px;
+}
+
+.div-2 {
+    transition: width 2s, height 4s;
+}
+
+.div-2:hover {
+    width: 400px;
+    height: 200px;
+}
+
+.timing-function-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.timing-function-container div {
+    height: 100px;
+    width: 100px;
+    background: black;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 10px;
+    transition: height 2s;
+}
+
+#linear { transition-timing-function: linear; }
+#ease { transition-timing-function: ease; }
+#ease-in { transition-timing-function: ease-in; }
+#ease-out { transition-timing-function: ease-out; }
+#ease-in-out { transition-timing-function: ease-in-out; }
+
+.timing-function-container div:hover {
+    height: 250px;
+}
+
+.div-4 {
+    transition: width 2s;
+    transition-delay: 2s;
+}
+
+.div-4:hover {
+    width: 250px;
+}
+
+.div-5 {
+    transition: width 2s, height 3s, transform 4s, background-color 4s;
+}
+
+.div-5:hover {
+    width: 300px;
+    height: 400px;
+    transform: rotate(180deg);
+    background-color: red;
+}
+
+.div-6 {
+    transition: width 2s linear 1s;
+}
+
+.div-6:hover {
+    width: 250px;
+}
