@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Gradients</title>
+    <style>
+        div {
+            width: 100%;
+            height: 100px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gradient-1 { background-image: linear-gradient(red, yellow); }
+        .gradient-2 { background-image: linear-gradient(to right, red, yellow); }
+        .gradient-3 { background-image: linear-gradient(to top left, red, yellow); }
+        .gradient-4 { background-image: linear-gradient(-60deg, red, yellow); }
+        .gradient-5 { background-image: linear-gradient(to right, red, yellow, blue, green, orange, pink, olive, brown); }
+        .gradient-6 { background-image: linear-gradient(to right, rgba(0, 0, 255, 0), rgba(0, 0, 255, 1)); }
+        .gradient-7 { background-image: repeating-linear-gradient(red, green 20%, blue 10%) }
+        .gradient-8 { background-image: radial-gradient(red, yellow, green); }
+        .gradient-9 { background-image: radial-gradient(red 20%, yellow 15%, green 60%); }
+        .gradient-10 { 
+            background-image: radial-gradient(circle, red, yellow, green); 
+            height: 100px;
+            width: 100px;
+        }
+        .gradient-11 { background-image: repeating-radial-gradient(red, yellow 10%, green 15%); }
+    </style>
+</head>
+<body>
+    <div class="gradient-1">This is a linear gradient. By default, it will be from top to bottom.</div>
+    <hr />
+    <div class="gradient-2">This is a linear gradient. It is from left to right.</div>
+    <hr />
+    <div class="gradient-3">This is a linear gradient. It is diagonal.</div>
+    <hr />
+    <div class="gradient-4">This is a linear gradient. It is using angles.</div>
+    <hr />
+    <div class="gradient-5">We can use multiple colors as well.</div>
+    <hr />
+    <div class="gradient-6">We can use the same color's opacity levels to make a more defining linear gradient.</div>
+    <hr />
+    <div class="gradient-7">We can repeat a pattern.</div>
+    <hr />
+    <div class="gradient-8">This is a radial gradient. By default, all colors are evenly spaced out.</div>
+    <hr />
+    <div class="gradient-9">This is a radial gradient. Colors are given different percentages.</div>
+    <hr />
+    <div class="gradient-10">This is a radial gradient. By default, it's an ellipse, but here, we made it a circle.</div>
+    <hr />
+    <div class="gradient-11">This is a radial gradient. By default, it's an ellipse, but here, we made it a circle.</div>
+</body>
+</html>
