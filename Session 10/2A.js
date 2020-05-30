@@ -18,30 +18,6 @@ var x = (
 console.log(x);
 
 
-var person = {
-    fullName: function() {
-        return this.firstName + " " + this.lastName;
-    }
-}
-var person1 = {
-    firstName:"John",
-    lastName: "Doe"
-}
-var person2 = {
-    firstName:"Mary",
-    lastName: "Doe"
-}
-console.log(person.fullName.call(person1));
-
-
-var personObj = {
-    fullName: function(age, gender) {
-        return this.firstName + "  " + this.lastName + "  " + age + "  " + gender;
-    }
-}
-console.log(personObj.fullName.call(person1, 70, "M"));
-console.log(personObj.fullName.apply(person1, [70, "M"]));
-
 console.log("******************************");
 
 function countdown(fromNumber) {
