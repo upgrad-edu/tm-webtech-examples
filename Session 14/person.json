@@ -1,0 +1,10 @@
+{
+    "name": "John Doe",
+    "age": 27,
+    "address": {
+        "flat": 101,
+        "address": "Rose Villa",
+        "city": "Mumbai"
+    },
+    "language": "English"
+}
