@@ -9,3 +9,5 @@ export class Person {
 }
 
 const cars = ['BMW', 'Audi'];
+
+// module.exports.names = names;
