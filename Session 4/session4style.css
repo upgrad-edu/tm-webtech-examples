@@ -1,0 +1,18 @@
+h3 { 
+    color:grey; 
+}    
+#id_h3 { 
+    color: black; 
+}         
+.class_h3 { 
+    color:brown; 
+}    
+#id_p { 
+    color: red; 
+}     
+.class_p { 
+    color:green; 
+} 
+p {
+    color: aqua;
+}
