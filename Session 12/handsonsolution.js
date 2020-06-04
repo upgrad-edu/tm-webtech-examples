@@ -5,7 +5,7 @@ let promiseObj = new Promise((resolve, reject) => {
     console.log("Getting email from server...");
     setTimeout(() => {
         // DONE 2: Inside the producer code, invoked the resolve() callback while passing in the email as the argument
-        resolve("srishti.gupta@upgrad.com");
+        resolve("prachi.agrawal@upgrad.com");
     }, 2000);
 });
 
