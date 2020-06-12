@@ -6,17 +6,21 @@ let promise = new Promise(function(resolve, reject) {
     console.log(result); // 1
     return result * 2;
   });
+
   
   promise.then(function(result) {
     console.log(result); // 1
     return result * 2;
-});
+  });
   
-promise.then(function(result) {
+  promise.then(function(result) {
     console.log(result); // 1
     return result * 2;
-});
-
+  });
+  
+  promise.catch(error => {
+    console.log(error);
+  })
 
 new Promise(function(resolve, reject) {
 
