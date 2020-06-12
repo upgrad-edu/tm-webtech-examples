@@ -1,0 +1,32 @@
+  body {
+    background-color: #000000
+}
+p {
+    color: white;
+    font-size:150px;
+    text-align: center;
+}
+.textloading:after {
+    content: '.';
+    animation: loadingdots 1s steps(3, end) infinite;
+}
+  
+@keyframes loadingdots {
+    0%{
+        color: #000000;
+    }
+    25% {
+        color: #ffffff;
+        text-shadow:0.25em 0 0 #000000;
+    }
+    50% {
+        color: #ffffff;
+        text-shadow:0.25em 0 0 #000000;
+    }
+    75% {
+        text-shadow:0.25em 0 0 #ffffff, 0.5em 0 0 #000000;
+    }
+    100% {
+        text-shadow:0.25em 0 0 #ffffff, 0.5em 0 0 #ffffff;
+    }
+}

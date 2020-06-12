@@ -1,55 +1,89 @@
-.hover-text-tooltip {
-    display: none;
-    background-color: green;
-    color: #fff;
+.block {
+    margin-bottom: 100px;
 }
 
-.hover-div:hover + .hover-text-tooltip {
-    display: block;
+.block-1 {
+    display: grid;
+    /* grid-template-columns: 20px 40px 60px 20px 40px; */
+    grid-template-columns: 20px 40px auto 20px 40px;
+    grid-template-rows: 25% 100px;
 }
 
-.div-2 p:first-child {
-    color: blue;
+.block-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
 }
 
-.div-2 p:last-child {
-    color: red;
+.block-3 {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: 2fr 1fr 1fr;
 }
 
-.para:first-of-type {
-    color: green;
+.block-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.para:last-of-type {
-    color: brown;
+.block-5 {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    /* column-gap: 10px; */
+    /* row-gap: 15px; */
+    gap: 15px 10px;
+    justify-items: start;
+    /* justify-items: end; */
+    /* justify-items: center; */
+    /* justify-items: stretch; */
+    align-items: start;
+    /* align-items: end; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+    justify-content: start;
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: stretch; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    align-content: start;
+    /* align-content: end; */
+    /* align-content: center; */
+    /* align-content: stretch; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+    height: 500px;
+    border: 1px solid blue;
 }
 
-.div-3 :not(p) {
-    background-color: #ccc;
+.item-a {
+    grid-area: header; 
 }
 
-.div-4 p:nth-child(2) {
-    color: goldenrod;
+.item-b {
+    grid-area: main;
 }
 
-.div-4 p:nth-last-child(3) {
-    color: blueviolet;
+.item-c {
+    grid-area: sidebar;
 }
 
-.para-2:nth-of-type(2) {
-    color: olive;
+.item-d {
+    grid-area: footer;
 }
 
-.para-2:nth-last-of-type(2) {
-    color: pink;
+.block-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header header header header"
+        "main main . sidebar"
+        "footer footer footer footer";
 }
 
-.text-input:focus {
-    background-color: black;
-    color: white;
+.item {
+    border: 1px solid #ccc;
+    text-align: center;
 }
-
-.text-checkbox:checked + span {
-    color: green
-}
-

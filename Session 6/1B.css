@@ -3,8 +3,12 @@ a:visited { color: green; }
 a:hover { color: orange; }
 a:active { color: blue; }
 
-.button-link:link, .button-link:visited {
+button {
+    margin: 10px;
     background-color: #f44336;
+}
+
+.button-link:link, .button-link:visited { 
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -13,5 +17,5 @@ a:active { color: blue; }
 }
   
 .button-link:hover, .button-link:active {
-    background-color: red;
+    background-color: green;
 }
