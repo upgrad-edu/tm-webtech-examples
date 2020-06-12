@@ -34,17 +34,22 @@ person2.firstName = "Jim";
 person2.lastName = "Moriarty";
 person2.age = 52;
 
-document.getElementById('text-1').innerHTML = person2;
-document.getElementById('text-2').innerHTML = person2.firstName + "  " + person2.lastName + ", " + person2.age;
+// document.getElementById('text-1').innerHTML = person2;
+console.log("text1    ", person2);
+// document.getElementById('text-2').innerHTML = person2.firstName + "  " + person2.lastName + ", " + person2.age;
+console.log("text2    ", person2.firstName + "  " + person2.lastName + ", " + person2.age);
 var text = '';
 for(var key in person2) {
     text += person2[key] + " ";
 }
-document.getElementById('text-3').innerHTML = text;
+// document.getElementById('text-3').innerHTML = text;
+console.log("text3    ", text);
 var person2Array = Object.values(person2);
-document.getElementById('text-4').innerHTML = person2Array;
+// document.getElementById('text-4').innerHTML = person2Array;
+console.log("text4    ", person2Array);
 var person2String = JSON.stringify(person2);
-document.getElementById('text-5').innerHTML = person2String;
+// document.getElementById('text-5').innerHTML = person2String;
+console.log("text5    ", person2String);
 
 
 console.log("/************Object Constructors*************/");
