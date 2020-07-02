@@ -1,0 +1,18 @@
+#container1 {
+    color: red;
+}
+#container2 {
+    color: #00ffff;
+}
+#container3 {
+    color: rgb(0, 0, 0);
+}
+#container4 {
+    color: hsl(120, 100%, 50%); 
+}
+#container5 {
+    color: rgba(0, 0, 0, 0.3); 
+}
+#container6 {
+    color: hsla(120, 100%, 50%, 0.5); 
+}
