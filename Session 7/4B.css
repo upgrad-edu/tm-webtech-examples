@@ -1,0 +1,14 @@
+#border {
+    border: 10px solid transparent;
+    border-image-source: url('https://www.pngarts.com/files/1/Abstract-Design-PNG-Download-Image.png');
+    border-image-width: 20px;
+    border-image-repeat: round;
+    border-image-slice: -30;
+}
+
+#background {
+    background-image: url('https://www.pngarts.com/files/1/Abstract-Design-PNG-Download-Image.png'), url('https://previews.123rf.com/images/grigory_bruev/grigory_bruev1505/grigory_bruev150500195/40532006-orange-fruit-background-summer-oranges-healthy-food-concept.jpg');
+    background-position: left top, right top;
+    background-repeat: no-repeat, repeat;
+    height: 400px;
+}

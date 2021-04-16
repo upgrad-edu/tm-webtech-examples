@@ -1,0 +1,40 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px ;
+    width: 300px;
+    height:300px;
+    grid-gap:10px;
+    float:left;
+}
+.grid-container > div {
+    color: black;
+    font-size: 24px;
+}
+.grid-item-1{
+    background-color:yellow;
+}
+.grid-item-2{
+    background-color:pink;
+}
+.grid-item-3{
+    background-color:purple;
+}
+.grid-item-4{
+    background-color:blue;
+}
+.grid-item-5{
+    background-color: green;
+}
+.grid-item-6{
+    background-color:orange;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    height: 240px;
+    width: 480px;
+    font-size: 24px;
+    float: right;
+}

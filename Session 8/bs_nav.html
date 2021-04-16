@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Navs</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <style>
+            #container {
+                display: flex;
+                flex-direction: column;
+            }
+            #pills-tab {
+                justify-content: center;
+            }
+            img {
+                width: 300px;
+                height: 250px;
+                margin: 20px 0px 0px 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <ul class="nav nav-pills" id="pills-tab">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#animals">Animals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#birds">Birds</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div id="animals" class="tab-pane fade show active">
+                    <img src="https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_960_720.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636__340.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2018/05/03/22/34/lion-3372720__340.jpg">  
+                    <img src="https://cdn.pixabay.com/photo/2015/04/10/01/41/fox-715588__340.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2015/10/12/15/46/fallow-deer-984573__340.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2017/12/10/15/16/white-horse-3010129__340.jpg"> 
+                    <img src="https://cdn.pixabay.com/photo/2018/03/31/06/31/dog-3277416__340.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2017/11/14/13/06/kitty-2948404__340.jpg">
+                </div>
+                <div id="birds" class="tab-pane fade">
+                    <img src="https://cdn.pixabay.com/photo/2017/07/18/18/24/dove-2516641__340.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2017/02/07/16/47/kingfisher-2046453__340.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2017/02/18/13/55/swan-2077219__340.jpg">  
+                    <img src="https://cdn.pixabay.com/photo/2016/11/18/12/14/owl-1834152_960_720.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2013/03/04/18/49/peacock-90051__340.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2018/10/11/23/08/hahn-3741129__340.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/28/11/00/white-tailed-eagle-2015098__340.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2018/04/11/06/03/flamingo-3309628__340.jpg">  
+                </div>
+            </div>
+        </div>   
+    </body>
+</html>

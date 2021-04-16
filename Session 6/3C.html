@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positions</title>
+    <link href="3C.css" rel="stylesheet" />
+</head>
+<body>
+    <section class="position-container">
+        <div class="static-position">This div is placed static, as in the normal flow of the page. Left, right, top and bottom will not move this div.</div>
+
+        <hr />
+
+        <div class="relative-position">This div is placed relative, as in relative to the normal flow of the page. Left, right, top and bottom will move this div. For example, this div is positioned 5px to the right to its original position.</div>
+
+        <hr />
+
+        <div class="fixed-position">This div is placed relative to the viewport. It's fixed to the viewport.</div>
+
+        <div class="absolute-position-container">
+            <p class="absolute-position">This div is placed absolutely. It is positioned relative to the nearest ancestor.</p>
+        </div>
+
+        <hr />
+
+        <div class="sticky-position-container">
+            <div class="sticky-position">Sticky Text</div>
+        </div>
+        <div style="position: relative">
+            <img src="https://previews.123rf.com/images/grigory_bruev/grigory_bruev1505/grigory_bruev150500195/40532006-orange-fruit-background-summer-oranges-healthy-food-concept.jpg" />
+            <p style="position: absolute; z-index: 900; top: 50%">This is some text.</p>
+        </div>
+    </section>
+</body>
+</html>

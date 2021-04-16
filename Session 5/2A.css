@@ -1,0 +1,81 @@
+.title {
+    color: #333;
+}
+
+.dotted {border-style: dotted;}
+.dashed {border-style: dashed;}
+.solid {border-style: solid;}
+.double {border-style: double;}
+.groove {border-style: groove;}
+.ridge {border-style: ridge;}
+.inset {border-style: inset;}
+.outset {border-style: outset;}
+.none {border-style: none;}
+.hidden {border-style: hidden;}
+.mix {border-style: dotted dashed solid double;}
+
+.border-1 {
+    border-style: solid;
+    border-width: 5px;
+}
+
+.border-2 {
+    border-style: double;
+    border-width: thin;
+}
+
+.border-3 {
+    border-style: solid;
+    border-width: 10px 2px 3px 5px;
+}
+
+.border-red {
+    border-style: solid;
+    border-color: red;
+}
+
+.border-mixed {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+
+.border-four-values {
+    border-style: solid;
+    border-color: red blue green yellow;
+}
+
+.border-three-values {
+    border-style: solid;
+    border-color: red blue green;
+}
+
+.border-two-values {
+    border-style: solid;
+    border-color: red blue;
+}
+
+.border-one-value {
+    border-style: solid;
+    border-color: red;
+}
+
+.all-borders-shorthand {
+    border: 1px solid black;
+}
+
+.bottom-border-shorthand {
+    border-bottom: 1px solid black;
+}
+
+.border-radius-div {
+    background-color: #4CAF50;
+    height: 100px;
+    width: 60px;
+}
+
+.border-radius-four-values {border-radius: 25px 45px 10px 1px;}
+.border-radius-three-values {border-radius: 25px 45px 10px;}
+.border-radius-two-values {border-radius: 25px 45px;}
+.border-radius-one-value {border-radius: 25px;}

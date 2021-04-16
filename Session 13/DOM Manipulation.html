@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Element</title>
+</head>
+<body>
+    <p>Text 1</p>
+    <div id="div-1"></div>
+
+    <div id="div-2" style="border: 1px solid black">
+        <p id="para-1">Paragraph 1</p>
+        <p id="para-3">Paragraph 3</p>
+        <p id="para-4">Paragraph 4</p>
+    </div>
+
+    <br />
+
+    <button id="button-1" onclick="buttonClicked()">Click!</button>
+
+    <hr />
+
+    <div id="mouseOverDiv" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Move your mouse over here.</div>
+
+    <hr />
+
+    <input type="text" onblur="blurs(this)" id="textInputDiv" />
+
+    <hr />
+
+    <button id="button-2">Click here on button 2.</button>
+    <p id="demo"></p>
+
+    <script src="dom-manipulation.js"></script>
+</body>
+</html>

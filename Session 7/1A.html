@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+    <link href="1A.css" rel="stylesheet" />
+</head>
+<body>
+    <section>
+        <h1>Combinator - space</h1>
+        <div class="div-1">
+            <p>This paragraph is styled using space combinator, which means it's the descendant of the 'div-1' parent.</p>
+            <p>This paragraph is also a descendant of div-1.</p>
+            <section>
+                <p>This paragraph is also a descendant of div-1 and is the child of section.</p>
+            </section>
+        </div>
+        <p>This paragraph is not inside the 'div-1', so it's not colored red.</p>
+    </section>
+
+    <hr />
+
+    <section>
+        <h1>Combinator - ></h1>
+        <div class="div-2">
+            <p>This paragraph is styled using space combinator, which means it's the descendant of the 'div-2' parent.</p>
+            <p>This paragraph is also a descendant of div-2.</p>
+            <section>
+                <p>Although this paragraph is a descendant of div-2, it is not the direct child of div-2, since it is inside a section and hence it will not get the color green.</p>
+            </section>
+            <p>This paragraph is also a descendant of div-2.</p>
+        </div>
+        <p>This paragraph is not inside the 'div-2', so it's not colored green.</p>
+    </section>
+
+    <hr />
+
+    <section>
+        <h1>Combinator - +</h1>
+        <div class="div-3">
+            <p>This paragraph is inside div-3, hence it won't get the color blue.</p>
+            <section>
+                <p>This paragraph is also inside div-3, hence it won't get the color blue.</p>
+            </section>
+        </div>
+        <p>This paragraph is adjacent to the div-3, hence it will be colored blue.</p>
+        <p>This paragraph is not adjacent to the div-3, hence it will not be colored blue.</p>
+    </section>
+
+    <hr />
+
+    <section>
+        <h1>Combinator - ~</h1>
+        <div class="div-4">
+            <p>This paragraph is inside div-4, hence it won't get the color brown.</p>
+        </div>
+        <p>This paragraph is adjacent to the div-4, hence it will get the color brown.</p>
+        <span>This is a span, so it will not be colored.</span>
+        <p>This paragraph is adjacent to the div-4 inspite of a span element, hence it will get the color brown.</p>
+    </section>
+</body>
+</html>

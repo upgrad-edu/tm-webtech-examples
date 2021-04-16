@@ -1,0 +1,38 @@
+.static-position {
+    position: static;
+}
+
+.relative-position {
+    position: relative;
+    right: 10px;
+}
+
+.fixed-position {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.absolute-position-container {
+    position: relative;
+    height: 20px;
+    background-color: green;
+}
+
+.absolute-position {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+}
+
+.sticky-position-container {
+    height: 100vh;
+    position: relative;
+}
+
+.sticky-position {
+    position: sticky;
+    top: 0;
+    background-color: blue;
+    color: #fff;
+}

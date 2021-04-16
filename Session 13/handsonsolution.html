@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Listeners</title>
+</head>
+<body>    
+    <div id="container">
+        <h1 class="heading" style="color: pink;">Registration form</h1>
+        <p id="intropara" style="color: brown;">Please register for more</p>
+        <button type="button" id="btn">SUBMIT</button>
+    </div>
+   <script>
+        document.getElementById('btn').style.cursor = 'pointer';
+        document.getElementById('btn').onclick = function() { 
+            document.getElementById('container').style.backgroundColor = 'grey';
+            document.getElementById('intropara').style.color = 'white';
+            document.getElementById('intropara').innerText = 'Registered';
+        }
+   </script> 
+</body>
+</html>

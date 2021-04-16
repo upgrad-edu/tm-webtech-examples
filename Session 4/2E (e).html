@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>px vs em vs rem</title>
+        <style>
+            div {
+                border: 1px solid black;
+                margin: 20px 0;
+            }
+
+            body {
+                font-size: 16px;
+            }
+
+            #first-p {
+                font-size: 20px;
+            }
+
+            #second-div {
+                font-size: 24px;
+            }
+
+            #second-p {
+                font-size: 1em;
+            }
+
+            #third-div {
+                font-size: 0.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="first-div">
+            <p id="first-p">First paragraph with px</p>
+          </div>
+          
+          <hr />
+          
+          <div id="second-div">
+            <p>Second paragraph with em</p>
+          </div>
+          
+          <hr />
+          
+          <div id="third-div">
+            <p>Third paragraph with rem</p>
+          </div>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+.hover-text-tooltip {
+    display: none;
+    background-color: green;
+    color: #fff;
+}
+
+.hover-div:hover + .hover-text-tooltip {
+    display: block;
+}
+
+.div-2 p:first-child {
+    color: blue;
+}
+
+.div-2 p:last-child {
+    color: red;
+}
+
+.para:first-of-type {
+    color: green;
+}
+
+.para:last-of-type {
+    color: brown;
+}
+
+.div-3 :not(p) {
+    background-color: #ccc;
+}
+
+.div-4 p:nth-child(2) {
+    color: goldenrod;
+}
+
+.div-4 p:nth-last-child(3) {
+    color: blueviolet;
+}
+
+.para-2:nth-of-type(2) {
+    color: olive;
+}
+
+.para-2:nth-last-of-type(2) {
+    color: pink;
+}
+
+.text-input:focus {
+    background-color: black;
+    color: white;
+}
+
+.text-checkbox:checked + span {
+    color: green
+}
+

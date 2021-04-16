@@ -1,0 +1,37 @@
+.container {
+    width: 300px;
+    height: 100px;
+    border: 1px solid #4CAF50;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow-x: scroll;
+    background-color: blue;
+}
+
+.container-1 {
+    transform: translate3d(20px, 30px, 50px);
+    background-color: pink;
+}
+
+.container-2 {
+    transform: rotate3d(1, -2, 50, 50deg);
+    background-color: pink;
+}
+
+.container-3 {
+    transform: scale3d(2, 2, 5);
+    background-color: pink;
+}
+
+.container-static {
+    perspective: 100px;
+    background-color: transparent;
+}
+
+.container-4 {
+    transform: rotateX(20deg);
+    background-color: pink;
+    position: absolute;
+}

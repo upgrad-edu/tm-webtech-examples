@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display and Visibility</title>
+    <style>
+        .inline-element {
+            display: inline;
+            border: 1px solid black;
+            background-color: yellow;
+            height: 100px;
+            width: 200px;
+            margin-top: 25px;
+        }
+
+        .inline-block-element {
+            display: inline-block;
+            border: 1px solid black;
+            background-color: yellow;
+            height: 100px;
+            width: 200px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        
+        .dark-bg {
+            background-color: black;
+            color: white;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <span style="display: block; border: 1px solid black; margin-bottom: 25px;">This is a block-level element.</span>
+    
+    <div style="border: 1px solid black; margin-bottom: 25px">Divs are, by default, block-level elements.</div>
+
+    <div style="display: inline; border: 1px solid black">This is an inline element. It occupies only the space it has.</div>
+
+    <span style="border: 1px solid black; margin-bottom: 25px;">Spans are, by default, inline elements.</span>
+
+    <div style="display: none; border: 1px solid black;">This is an element which will not be shown, because display: none.</div>
+
+    <br />
+
+    <div class="inline-element">
+        This is an inline-element. Heights and widths are not considered in this. Even, top and bottom margins/paddings are not considered.
+    </div>
+
+    <div class="inline-block-element">
+        This is an inline-block element. Heights, widths and top/bottom margin/padding are considered. However, elements still behave as inline.
+    </div>
+
+    <div class="dark-bg">
+        <div style="height: 200px; width: 100px; background-color: brown; visibility: hidden;">This block has visibility: hidden, so its space is reserved but element is not shown.</div>
+        <div>Hi there</div>
+    </div>
+</body>
+</html>
